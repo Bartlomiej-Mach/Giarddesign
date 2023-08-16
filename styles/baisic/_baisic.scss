@@ -1,0 +1,30 @@
+body, html {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+// body::-webkit-scrollbar {
+//     width: 5px;
+//     background: #000;
+//   }
+// body::-webkit-scrollbar-thumb {
+//     background: #fff;
+    
+// }

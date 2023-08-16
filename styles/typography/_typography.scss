@@ -1,0 +1,96 @@
+// font import
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@400;500&display=swap');
+
+
+// Sizes
+
+$font-h1-desktop: 6rem;
+$font-h1-mobile: 4.5rem;
+
+$font-h2-desktop: 4.8rem;
+$font-h2-mobile: 3.5rem;
+
+$font-h3-desktop: 2.8rem;
+$font-h3-mobile: 2.2rem;
+
+
+$font-text: 1.6rem;
+
+// Weight
+
+$font-regular: 400;
+$font-medium: 500;
+
+// font family
+
+$font-inter: 'Inter', sans-serif;
+$font-montserrat: 'Montserrat', sans-serif;
+
+
+// baisic typography
+html { 
+    font-size: 10px; 
+}
+
+h1 {
+    font-size: $font-h1-desktop;
+    font-weight: $font-medium;
+    font-family: $font-montserrat;
+    line-height: 7rem;
+    @include break-point-down(lg) {
+        font-size: $font-h1-mobile;
+        line-height: 5rem;
+    }
+}
+
+h2 {
+    font-size: $font-h2-desktop;
+    font-weight: $font-medium;
+    font-family: $font-montserrat;
+    letter-spacing: -1.44px;
+    line-height: 115%;
+    i {
+        font-family: $font-inter;
+    }
+    @include break-point-down(lg) {
+        font-size: $font-h2-mobile;
+    }
+}
+
+h3 {
+    font-size: $font-h3-desktop;
+    font-weight: $font-medium;
+    font-family: $font-montserrat;
+    letter-spacing: -1.4px;
+    line-height: 115%
+}
+
+
+p,
+span {
+    font-family: $font-inter;
+    font-weight: $font-regular;
+    font-size: $font-text;
+    line-height: 150%;
+}
+
+a {
+    text-decoration: none;
+    font-size: $font-text;
+    font-weight: $font-regular;
+    font-family: $font-inter;
+}
+
+//extra typography
+
+.navigation-section ul li a {
+    font-size: 14px;
+}
+
+form input {
+    font-family: $font-inter;
+}
+
+.subheading {
+    font-size: 1.2rem;
+}
