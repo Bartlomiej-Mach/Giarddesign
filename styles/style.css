@@ -221,6 +221,7 @@ a {
   color: #1B5B31;
 }
 .navigation-section__content__link-container--list ul .magnifier span {
+  color: #111111;
   display: none;
 }
 .navigation-section__content__link-container--list ul .special-link-opener:hover .special-links {
@@ -746,7 +747,7 @@ a {
 .gallery-section {
   height: 1800px;
   overflow: hidden;
-  padding: 120px 0;
+  padding: 120px 0 150px 0;
   background-color: #DCC1AB;
   transition: 0.2s;
   position: relative;
@@ -927,6 +928,9 @@ a {
   .gallery-section__content {
     padding: 0 100px;
   }
+  .gallery-section .btn-secondary {
+    bottom: 40px;
+  }
   .gallery-section__slider .arrow-container {
     padding: 10px 5px;
   }
@@ -951,7 +955,7 @@ a {
 }
 @media (max-width: 768px) {
   .gallery-section {
-    padding: 50px 0;
+    padding: 50px 0 100px 0;
   }
   .gallery-section__content {
     padding: 0 30px;
@@ -1193,6 +1197,7 @@ a {
   top: 0;
   left: 0;
   z-index: 1000;
+  background-color: #fff;
 }
 .opener-secion__content {
   width: 100%;
